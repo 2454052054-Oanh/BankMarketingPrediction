@@ -8,7 +8,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # ==============================================================================
-# CẤU HÌNH HỆ THỐNG VÀ GIAO DIỆN ENTERPRISE BUSINESS INTELLIGENCE DASHBOARD
+# CẤU HÌNH GIAO DIỆN STREAMLIT
 # ==============================================================================
 st.set_page_config(
     page_title="Hệ thống phân tích dữ liệu và dự đoán quyết định gửi tiền tiết kiệm ngân hàng",
@@ -16,9 +16,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Hệ thống thiết kế chuẩn phần mềm phân tích dữ liệu chuyên nghiệp (Enterprise BI):
-# Tối giản, thanh lịch, tập trung hoàn toàn vào dữ liệu thực tế từ dataset gốc,
-# không sử dụng emoji, không bịa đặt số liệu hoặc nghiệp vụ ngoài phạm vi nghiên cứu.
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
